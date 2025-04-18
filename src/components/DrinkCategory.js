@@ -7,7 +7,7 @@ const DrinkCategory = ({ category }) => {
             <figure className="category-figure">
                 <img src={category.img} alt={category.category} />
             </figure>
-            <button>Add Flavor</button>
+            <button className="button">Add Flavor</button>
         </article>
     )
 }

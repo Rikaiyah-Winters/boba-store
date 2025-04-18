@@ -21,6 +21,13 @@
 }
 
 img {
-  width: ;
+  width: 150px;
   height: 150px;
+}
+
+.button {
+  width: 80px;
+  height: 40px;
+  color: white;
+  background-color: black;
 }
