@@ -3,17 +3,18 @@
 }
 
 .header {
-  background-color: #ffd60a;
+  background: #ffd60a;
   margin-top: 0;
   font-size: 3em;
+  width: 100%;
 }
 
 .category-card {
-  width: 35%;
+  width: 90%;
   display: inline-block;
   background-color: #ffd60a;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 25px;
+  margin-right: 45px;
   margin-top: 150px;
   padding-top: 40px;
   padding-bottom: 60px;

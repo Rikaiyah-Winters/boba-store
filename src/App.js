@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      {<Header />}
       {drinkCategories.map((category) => (
         <DrinkCategory category={category} key={category.key}/>
       ))}
