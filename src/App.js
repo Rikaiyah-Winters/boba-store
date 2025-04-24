@@ -1,9 +1,15 @@
+import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import DrinkCategory from './components/DrinkCategory';
 
 function App() {
-  //const [flavorCategory, setFlavorCategory] = useState(null);
+  const [showCustomDrinkForm, setShowCustomDrinkForm] = useState(null);
+
+  const showCustomizeDrinkPage = () => {
+    setShowCustomDrinkForm(true)
+  }
+
 
   const drinkCategories = [
     {
@@ -21,9 +27,11 @@ function App() {
   return (
     <div className="App">
       {<Header />}
-      {drinkCategories.map((category) => (
-        <DrinkCategory category={category} key={category.key}/>
+      {showCustomDrinkForm}
+      {!showCustomDrinkForm && drinkCategories.map((category) => (
+        <DrinkCategory category={category} key={category.key} showCustomizeDrinkPage={showCustomizeDrinkPage} />
       ))}
+
     </div>
   );
 }
