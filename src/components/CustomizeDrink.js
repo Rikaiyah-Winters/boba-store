@@ -32,6 +32,8 @@ const CustomizeDrink = () => {
                     <option>"Rainbow Jelly"</option>
                     <option>"Taro"</option>
                 </select>
+
+                <h3>Price: $X.XX</h3>
             </form>
         </div>
 
