@@ -34,6 +34,8 @@ const CustomizeDrink = () => {
                 </select>
 
                 <h3>Price: $X.XX</h3>
+
+                <button>Add to Cart</button>
             </form>
         </div>
 
