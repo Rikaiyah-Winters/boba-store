@@ -3,10 +3,8 @@ import React from "react";
 const Header = () => {
     return (
         <header>
-            <h1 className="header">BOBA SHOP</h1>
-            <span>⇒</span>
+            <h1>BOBA SHOP</h1>
         </header>
-
     )
 }
 

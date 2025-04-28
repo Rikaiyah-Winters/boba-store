@@ -1,9 +1,9 @@
 import React from "react";
 
-const CustomizeDrink = () => {
+const CustomizeMilkTea = () => {
     return (
         <div>
-            <h1>{category.title}</h1>
+            <h1>Create Your Milk Tea</h1>
             <form>
                 <label for="flavor">Choose a Flavor</label>
                 <select name="flavors">
@@ -42,4 +42,4 @@ const CustomizeDrink = () => {
     )
 };
 
-export default CustomizeDrink;
+export default CustomizeMilkTea;
