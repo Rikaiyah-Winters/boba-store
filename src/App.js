@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import DrinkCategory from './components/DrinkCategory';
 import CustomizeMilkTea from './components/CustomizeMilkTea';
+import Cart from './components/Cart';
 
 function App() {
   const [showCustomMilkTeaForm, setShowCustomMilkTeaForm] = useState(null);
@@ -28,6 +29,7 @@ function App() {
 return (
   <div className="App">
     {<Header />}
+    {/*Insert Cart component either here or in Header */}
     {showCustomMilkTeaForm && <CustomizeMilkTea />}
     {!showCustomMilkTeaForm && (drinkCategories.map((category) => (
       <DrinkCategory category={category} key={category.key} showCustomizeMilkTeaPage={showCustomizeMilkTeaPage} />
