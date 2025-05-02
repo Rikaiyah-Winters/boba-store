@@ -1,4 +1,5 @@
 import React from "react";
+import IndividualDrnkOrder from "./IndividualDrinkOrder";
 
 const Cart = () => {
     let orders = [] //collects drink orders, might have to relocate this 
