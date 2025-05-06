@@ -7,6 +7,7 @@ import Cart from './components/Cart';
 
 function App() {
   const [showCustomMilkTeaForm, setShowCustomMilkTeaForm] = useState(null);
+  const [orders, setOrders] = useState([]) //collects drink orders, might have to relocate this 
 
   const showCustomizeMilkTeaPage = () => {
     setShowCustomMilkTeaForm(true)
@@ -29,7 +30,7 @@ function App() {
   const addToCart = () => {
     //when form in CustomzeMilkTea.js is submitted, you take the form entries and
     //add them to the orders array 
-  }
+}
 
 return (
   <div className="App">
