@@ -30,6 +30,7 @@ function App() {
   const addToCart = () => {
     //when form in CustomzeMilkTea.js is submitted, you take the form entries and
     //add them to the orders array 
+    //setOrders([order, ...orders])
 }
 
 return (
