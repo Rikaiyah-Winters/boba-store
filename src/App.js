@@ -37,7 +37,7 @@ return (
   <div className="App">
     {<Header />}
     {/*Insert Cart component either here or in Header */}
-    {showCustomMilkTeaForm && <CustomizeMilkTea />}
+    {showCustomMilkTeaForm && <CustomizeMilkTea {/*addToCart={addToCart}*/} />}
     {!showCustomMilkTeaForm && (drinkCategories.map((category) => (
       <DrinkCategory category={category} key={category.key} showCustomizeMilkTeaPage={showCustomizeMilkTeaPage} />
     )))}
