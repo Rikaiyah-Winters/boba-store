@@ -1,6 +1,6 @@
 import React from "react";
 
-const IndividualDrnkOrder = () => {
+const IndividualDrinkOrder = () => {
     return(
         //Drink Category (milk tea or fruit tea)
         //added flavoring
@@ -9,4 +9,4 @@ const IndividualDrnkOrder = () => {
     )
 }
 
-export default IndividualDrnkOrder;
+export default IndividualDrinkOrder;
