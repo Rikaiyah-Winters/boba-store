@@ -20,11 +20,7 @@ function App() {
       title: "milk tea",
       img: "https://plus.unsplash.com/premium_vector-1712005192222-53ed25b5a490?q=80&w=2368&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
-    //{
-    //key: 2,
-    //title: "flavored tea/lemonade",
-    //img: ""
-    //}
+    //should add a fruit tea and lemonade option here eventually
   ];
 
   const addToCart = () => {
